@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flex-config>
+  <swf-version>28</swf-version>
+  <target-player>17.0</target-player>
+  <output>dest/factory.swc</output>
+  <compiler>
+    <source-path>
+      <path-element>src/</path-element>
+      <!-- <path-element>./Starling-Framework/starling/src/</path-element> -->
+      <!-- <path-element>./starling-extensions/src/</path-element> -->
+      <!-- <path-element>./feathers/source/</path-element> -->
+      <!-- <path-element>../feathers/themes/MetalWorksMobileTheme/source</path-element> -->
+    </source-path>
+    <show-actionscript-warnings>false</show-actionscript-warnings>
+    <!-- <include-libraries append="true"> -->
+      <!-- <library>lib/as3corelib.swc</library> -->
+      <!-- <library>lib/greensock.swc</library> -->
+      <!-- <library>lib/nanotween.swc</library> -->
+      <!-- <library>lib/starling.swc</library> -->
+      <!-- <library>lib/feathers.swc</library> -->
+    <!-- </include-libraries> -->
+  </compiler>
+</flex-config>

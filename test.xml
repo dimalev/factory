@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<flex-config>
+  <output>dest/test.swf</output>
+  <compiler>
+    <source-path append="true">
+      <path-element>test/</path-element>
+    </source-path>
+    <show-actionscript-warnings>true</show-actionscript-warnings>
+    <include-libraries append="true">
+      <library>lib/flexunit-uilistener.swc</library>
+      <library>lib/flexunit4.swc</library>
+    </include-libraries>
+  </compiler>
+</flex-config>
